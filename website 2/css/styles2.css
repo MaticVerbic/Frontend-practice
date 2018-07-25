@@ -1,0 +1,385 @@
+
+
+
+/*Typography*/ 
+
+body
+	{
+		 
+		color: #555555; 
+		font-size: 14px/21px "Tahoma", Arial, sans-serif; 
+	}
+h1, 
+h2, 
+ 
+h4
+	{
+		font-family: Georgia, serif;
+		font-weight: Bold; 
+		color: white;
+	}
+h1 		
+		{
+		font-size: 55px;
+		text-transform: uppercase; 
+		}
+h2
+		{
+		font-size: 28px;
+		text-transform: uppercase;
+		}
+h3
+		{
+		 color: #555555;
+		 font-size: 21px;
+		 text-transform: uppercase;
+		}
+h4
+		{
+		font-family: "Tahoma", Arial, sans-serif; 
+		font-weight: bold; 
+		font-size: 	16px; 
+		text-transform: uppercase; 
+		}
+.index-nav2-title
+		{
+		color: #555555;
+		}
+.email-example
+		{
+		 color: white;
+		}
+a 
+		{
+		 text-decoration: none;
+		}
+a:hover
+		{
+		text-decoration: underline; 
+		}
+a:active
+		{
+		color: #555555; 
+		}
+.letters
+		{
+			color: #f7cd78;
+		}
+.previous-arti
+	{
+		font-color: #555555;
+	}
+		
+
+/*Layout*/
+
+
+html
+	{
+		width: 100%;
+		height: 100%; 
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden;
+		
+	}
+
+.header-homepage
+		{
+		background: url(../images/header.jpg) 0 0 no-repeat; 
+		height: 500px; 
+		background-size: 100%; 
+		
+		}
+.index-projects
+		{
+		background: url(../images/ContentIndex.jpg) 0 0 no-repeat; 
+		height: 500px; 
+		background-size: 100%; 
+		}
+footer
+		{
+		background: url(../images/Footer.jpg) 0 0 no-repeat; 
+		height: 420px; 
+		background-size: 100%; 	
+		}
+
+.container 
+		{
+			 
+		width: 100%; 
+		margin: 0 auto;
+		overflow: hidden;		
+		}
+.top-container
+	{
+		
+		margin: 0px 0px; 
+		overflow: hidden;
+	}
+.email-example
+	{
+	float: right;
+	overflow: hidden;
+	margin-right: 42px; 
+	}
+
+nav 
+		{
+		float: left;
+		}
+		nav ul
+			{
+			list-style-type: none; 
+			
+			}
+			nav ul li
+				{
+				display: inline; 
+				margin-left: 42px;
+				
+				}
+				nav ul li a 
+					{
+					color: white; /*SWITCH HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+					text-transform: uppercase;
+					font-weight: bold;
+					font-size: 16px;
+					}
+
+.header-content
+	{
+		overflow: hidden;
+		text-align: center;
+		padding: 0 200px;
+		margin-top: 84px ;
+		text-transform: uppercase;
+	}
+.profile-picture
+	{
+	position: relative;
+	top: 100px;
+	left: 120px;
+	
+
+	}
+.header-arti
+	{
+	position: relative;
+	top: -60px;
+	left: 400px;
+	margin-right: 500px;
+		}
+.index-hr
+	{
+		background-color: rgba(255, 255, 255, .1); 
+		margin: -20px 100px 95px 400px;  
+	}
+.page-title
+	{
+		color: white;
+	  position: relative; 
+	  left: 398px;
+	  top: -145px;
+	}
+.circles
+	{
+		position: relative;
+		left: 200px;
+		top: 95px;
+	}
+.index-nav2
+	{
+		overflow: hidden;
+		margin-left: 170px ;
+		margin-top: 150px ;
+	}
+
+.column-third
+	{
+		margin: 14px 14px 21px 14px;
+		width: 300px;
+		float: left;
+	}
+	.column-third
+		{
+			text-align: center; 
+		}
+
+.column-half
+		{
+		
+		margin: 0px 50px 10px 140px;
+		width: 400px;
+		float: left; 
+		text-align: center; 
+		}
+
+		.column-half img 
+			{
+				margin-top: 10px;
+				margin-bottom: 12px;
+			}
+
+.index-projects
+		{
+
+		}	
+.lp-title
+		{
+			color: white;
+			text-align: center; 
+			margin: 50px 50px 50px 50px;
+			position: relative;
+			top: 50px;
+		}
+
+	.btn 
+		{
+		display: inline-block; 
+		height: 42px; 
+		width: 189px; 
+		border: 1px solid white; 
+		color: white; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		padding-top: 12px; 
+		border-radius: 5px; 
+		}
+		.btn:hover
+				{
+				text-decoration: none; 
+				background-color: white; 
+				color: black; 
+				}
+footer p 
+			{
+			color: white; 
+			}
+form input[type="email"]
+			{
+			border: none; 
+			height: 48px; 
+			width: 350px; 
+			padding: 0 12px; 
+			}
+form input[type="submit"]
+			{
+			background-color: transparent; 
+			height: 48px; 
+			padding: 0 12px; 
+			margin-left: 12px; 
+			}
+
+.copyright
+			{
+			padding: 48px 0;
+			text-align: center; 
+			}
+.btn2 
+		{
+		display: inline-block; 
+		height: 42px; 
+		width: 189px; 
+		border: 1px solid white; 
+		color: white; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		padding-top: 12px; 
+		border-radius: 5px;
+		margin-top: 21px; 
+
+		}
+		.btn2:hover
+				{
+				text-decoration: none; 
+				background-color: white; 
+				color: black; 
+				}	
+.column-half2
+		{
+		
+		margin: 21px 50px 10px 140px;
+		width: 400px;
+		float: left; 
+		text-align: center; 
+		}
+/*Blog*/
+
+
+.btn3 
+		{
+		display: inline-block; 
+		height: 42px; 
+		width: 189px; 
+		border: 1px solid #f7cd78; 
+		color: #f7cd78; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		padding-top: 12px; 
+		border-radius: 5px;
+		margin-top: 21px; 
+
+		}
+		.btn3:hover
+				{
+				text-decoration: none; 
+				background-color: #f7cd78; 
+				color: white; 
+				}	
+
+.blog-content
+		{
+			float: left;
+			overflow: hidden;
+			height: 1260px;
+			size: 100%;
+
+		}
+
+.ahr-ver-blog
+		{	
+			float: left;
+			overflow: hidden;
+			width: 1px;
+			height: 700px;
+			color: #555555;
+			position: relative; 
+			left: -6px;
+			top: 100px;
+			 
+		}
+.previous-arti
+		{
+			float: left;
+			overflow: hidden;
+			width: 402px;
+			margin: 10px 0px 10px 0px;
+			padding: 20px;
+			text-align: center; 
+		}
+
+.circles-ver
+		{
+			float: left;
+			overflow: hidden;
+		}
+
+.current-blog
+		{
+			width: 600px;
+			float: left;
+			overflow: hidden;
+			text-align: center;
+			background-color: blue;
+		}
+
+
+.dots
+		{
+			position: relative;
+			top: 55px;
+			width: 100px;
+			margin-left: 100px;
+			float: left;
+		}

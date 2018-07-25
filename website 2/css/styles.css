@@ -1,0 +1,457 @@
+
+
+
+/*Typography*/ 
+
+body
+	{
+		 
+		color: #555555; 
+		font-size: 14px/21px "Tahoma", Arial, sans-serif; 
+	}
+h1, 
+h2,  
+h4
+	{
+		font-family: Georgia, serif;
+		font-weight: Bold; 
+		color: white;
+	}
+h1 		
+		{
+		font-size: 55px;
+		text-transform: uppercase; 
+		}
+h2
+		{
+		font-size: 28px;
+		text-transform: uppercase;
+		}
+h3
+		{
+		 color: #555555;
+		 font-size: 21px;
+		 text-transform: uppercase;
+		}
+h4
+		{
+		font-family: "Tahoma", Arial, sans-serif; 
+		font-weight: bold; 
+		font-size: 	16px; 
+		text-transform: uppercase; 
+		}
+.index-nav2-title
+		{
+		color: #555555;
+		}
+.email-example
+		{
+		 color: white;
+		}
+a 
+		{
+		 text-decoration: none;
+		}
+a:hover
+		{
+		text-decoration: underline; 
+		}
+a:active
+		{
+		color: #555555; 
+		}
+.letters
+		{
+			color: #f7cd78;
+		}
+
+
+/*Layout*/
+
+
+html
+	{
+		width: 100%;
+		height: 100%; 
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden;
+		
+	}
+
+.header-homepage
+		{
+		background: url(../images/header.jpg) 0 0 no-repeat; 
+		height: 500px; 
+		background-size: 100%; 
+		margin-bottom: 96px; 
+		}
+.header-homepage-nonindex
+		{
+		background: url(../images/header.jpg) 0 0 no-repeat; 
+		height: 500px; 
+		background-size: 100%; 
+		
+		}
+.index-projects
+		{
+		background: url(../images/ContentIndex.jpg) 0 0 no-repeat; 
+		height: 500px; 
+		background-size: 100%; 
+		}
+footer
+		{
+		background: url(../images/Footer.jpg) 0 0 no-repeat; 
+		height: 420px; 
+		background-size: 100%; 	
+		}
+.container 
+		{
+			 
+		width: 100%; 
+		margin: 0 auto;
+		overflow: hidden;		
+		}
+.top-container
+	{
+		
+		margin: 0px 0px; 
+		overflow: hidden;
+	}
+.email-example
+	{
+	float: right;
+	overflow: hidden;
+	margin-right: 42px; 
+	}
+
+nav 
+		{
+		float: left;
+		}
+		nav ul
+			{
+			list-style-type: none; 
+			
+			}
+			nav ul li
+				{
+				display: inline; 
+				margin-left: 42px;
+				
+				}
+				nav ul li a 
+					{
+					color: white; /*SWITCH HERE !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+					text-transform: uppercase;
+					font-weight: bold;
+					font-size: 16px;
+					}
+
+.header-content
+	{
+		overflow: hidden;
+		text-align: center;
+		padding: 0 200px;
+		margin-top: 84px ;
+		text-transform: uppercase;
+	}
+.profile-picture
+	{
+	position: relative;
+	top: 100px;
+	left: 120px;
+	
+
+	}
+.header-arti
+	{
+	position: relative;
+	top: -60px;
+	left: 400px;
+	margin-right: 500px;
+		}
+.index-hr
+	{
+		background-color: rgba(255, 255, 255, .1); 
+		margin: -20px 100px 95px 400px;  
+	}
+.page-title
+	{
+		color: white;
+	  position: relative; 
+	  left: 398px;
+	  top: -145px;
+	}
+.circles
+	{
+		position: relative;
+		left: 200px;
+		top: 95px;
+	}
+.index-nav2
+	{
+		overflow: hidden;
+		margin-left: 170px ;
+		margin-top: 150px ;
+	}
+
+.column-third
+	{
+		margin: 14px 14px 21px 14px;
+		width: 300px;
+		float: left;
+	}
+	.column-third
+		{
+			text-align: center; 
+		}
+
+.column-half
+		{
+		
+		margin: 0px 50px 10px 140px;
+		width: 400px;
+		float: left; 
+		text-align: center; 
+		}
+
+		.column-half img 
+			{
+				margin-top: 10px;
+				margin-bottom: 12px;
+			}
+
+.index-projects
+		{
+
+		}	
+.lp-title
+		{	
+			color: white;
+			text-align: center; 
+			margin: 50px 50px 50px 50px;
+			position: relative;
+			top: 50px;
+		}
+
+	.btn 
+		{
+		display: inline-block; 
+		height: 42px; 
+		width: 189px; 
+		border: 1px solid white; 
+		color: white; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		padding-top: 12px; 
+		border-radius: 5px; 
+		}
+		.btn:hover
+				{
+				text-decoration: none; 
+				background-color: white; 
+				color: black; 
+				}
+footer p 
+			{
+			color: white; 
+			}
+form input[type="email"]
+			{
+			border: none; 
+			height: 48px; 
+			width: 350px; 
+			padding: 0 12px; 
+			}
+form input[type="submit"]
+			{
+			background-color: transparent; 
+			height: 48px; 
+			padding: 0 12px; 
+			margin-left: 12px; 
+			}
+
+.copyright
+			{
+			padding: 48px 0;
+			text-align: center; 
+			}
+.btn2 
+		{
+		display: inline-block; 
+		height: 42px; 
+		width: 189px; 
+		border: 1px solid white; 
+		color: white; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		padding-top: 12px; 
+		border-radius: 5px;
+		margin-top: 21px; 
+
+		}
+		.btn2:hover
+				{
+				text-decoration: none; 
+				background-color: white; 
+				color: black; 
+				}	
+.column-half2
+		{
+		
+		margin: 21px 50px 10px 140px;
+		width: 400px;
+		float: left; 
+		text-align: center; 
+		}
+/*Blog*/
+
+
+.container-1
+		{
+			width: 29%;
+			float: left;
+			
+	
+		}
+.container-2
+		{
+			width: 69%;
+			float: left;
+			
+	
+		}
+.container-3
+		{
+			width: 2%;
+			height: 700px;
+			float: left;
+			margin: 42px 42px;
+		}
+.blog-content
+		{
+			overflow: hidden; 
+			text-align: center;
+		}
+.btn3 
+		{
+		display: inline-block; 
+		height: 42px; 
+		width: 189px; 
+		border: 1px solid #5a2761; 
+		color: #5a2761; 
+		text-transform: uppercase; 
+		font-weight: bold; 
+		padding-top: 12px; 
+		border-radius: 5px;
+		margin-top: 21px; 
+		margin-bottom: 40px;
+		margin-left: 20px;
+
+		}
+		.btn3:hover
+				{
+				text-decoration: none; 
+				background-color: #5a2761; 
+				color: white; 
+				}	
+.text-border-prevar
+		{
+			border: 3px solid #5a2761;
+			border-radius: 8px;
+			margin-left: 42px; 
+			margin-top: 84px;
+			
+		}
+.circles-ver
+		{
+			height: 53px;
+		}
+.previous-arti
+		{
+			text-align: center;
+		}
+.pa-title
+		{
+			margin: 84px 0px 105px 0px;
+		}
+.blog-image
+		{
+			margin-top: 84px;
+		}
+.blog
+		{
+			margin: 84px;
+		}
+.blog-text
+		{
+			margin-top: 105px;
+			text-align: center; 
+		}
+.hr-ver-blog
+		{
+			width: 1px;
+			height: 930px; 
+			margin-top: 75px;
+			background-color: rgba(255, 255, 0, .2);
+		}
+.dots
+		{
+			float: left;
+			position: relative;
+			top: 84px;
+			left: 50px;
+		}	
+
+/*PORTFOLIO*/
+
+.container-p
+		{
+			overflow: hidden; 
+		}
+.column-half-p
+		{	width: 50%;
+			float: left;
+			margin: 21px auto 84px auto;
+		}
+.row-p
+		{
+			text-align: center; 
+
+
+		}
+.portfolio-header
+		{
+			margin-top: 126px;
+		}
+.image-p
+		{
+			margin: 84px 0px 0px 0px;
+		}
+
+
+
+
+/*ABOUT*/
+.content-about
+		{
+			text-align: center;
+
+
+		}
+.about-text
+		{
+			text-align: center;
+			margin: 21px 84px;
+		}
+.about-img
+		{
+			display: block;
+			margin: 84px auto;
+
+		}
+.about-p-l
+		{
+			margin-bottom: 84px;
+		}
